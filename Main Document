@@ -1,0 +1,48 @@
+# Cyber Security Assignment
+
+
+## Conceptualisation
+
+
+This task will be a _bushranger_ style question that will explore the use of images as junk files. The user will be asked to search through these files to find the flag. The user will have to use commands such as; **cat, cd, sort and find**, to be able to find the _hidden flag_. The flag will be within one of the junk image files and will be made a human readable file.
+
+
+
+
+## Research and Design
+
+
+We are planning a _Bushranger_ task which will involve a mix of files to search as well as images to be used as junk code. 
+
+
+The skill that will be used within the task are **cat** to search the system, **find** to search for the human readable file within the directory, **cd** command to enter directories to search, the **nano** command to allow us to type within a file and the **rm** command to copy the original files to repeat in other directories.
+
+
+We copied and pasted the images that when transferred to Linux, became junk code. We then used the junk code **bash for i in {000..100}; do cp image.name***, this copied and pasted the image 100 times within the directory as files with different numbered names. We then use the **nano** command to pick a random file to be able to type in and hide a flag.
+
+
+
+
+## Implementation
+
+We used commands such as...
+
+> Mkdir: This command was used to create the directories named {test1,test2,test3}.
+> CD: To change the directory to test1.
+> for i in {000..100}; do cp image.name: To duplicate an image 100 times as well as make them files.
+It also changes the file name to be numbered from 1-100.
+> We then went into the folder and changed two file names called file001 and file002 to file001 and file0O1.
+> nano: This command was used to edit the junk code within the image file to make it so we can type at the bottom of the code.
+> We can repeat every process from 'CD' to 'for i in {000..100}; do cp image.name' in the other 3 directories.
+
+
+## Reflection
+
+
+Overall, the assignment to conceptualise, research and design our own bushranger style task was enjoyable as we kept coming up with different ideas to improve the challenge.
+
+Our *central challenge* was centred around finding a human readable file within 4 directories containing 100 files each. This central idea was later changed to make each of the files images as when images are brought across to linux, it creates junk code. We could then hide the flag within one of the many files. The way to differentiate is to find two duplicate files named the same thing and this would mean you found the right file. Once found you can use the find feature to find the human readable file and get the flag.
+
+We faced challenges as we progressed through the assignment however the start was the hardest. The reason for this is because we struggled to find the code needed to progress throughout the task. As we did more research and asked questions we were able to find some useful methods to create a large amount of files through the use of images and the ability to hide a flag within the image junk code.
+
+Areas of improvement were working on the task given earlier as it was posted over a month from the date in which it was handed out. We thought that we could steadily work on it however we didn't which brought more pressure to us as we moved closer towards the due date. We also struggled to find a central idea as we kept coming up with different ideas to make it the central challenge better. Although we ended up cramming the task, we learnt many useful coding tools within Python and Linux commands that can end up in future objects.
