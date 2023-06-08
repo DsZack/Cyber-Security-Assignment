@@ -1,0 +1,8 @@
+1: Firstly, use the 'LS' command in the terminal to find all directories
+2: You should see four directories named {test1,test2,test3,test4}
+3: You then use the 'CD' command to enter one of the four directories
+4: Once inside the directory, you can then use the 'sort' command to sort all files alphabetically/numerically
+5: If you find a duplicate file you can use the 'CD' command to be able to open the file using the 'Cat' command
+6: If you dont find two files with the same name then you will have to reapeat steps 3 and 4 to find the duplicate file
+7: One you have opened th duplicate file you will then need to scroll to the the bottom to find the flag
+8: Copy and paste the flag and your done
