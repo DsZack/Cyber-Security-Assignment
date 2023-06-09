@@ -35,6 +35,8 @@ It also changes the file name to be numbered from 1-100.
 > nano: This command was used to edit the junk code within the image file to make it so we can type at the bottom of the code.
 > We can repeat every process from 'CD' to 'for i in {000..100}; do cp image.name' in the other 3 directories.
 
+Although we didnt fully implement the idea into a system that can be attempted and completed we had a rough outline of what we 
+wouldve done.
 
 ## Reflection
 
