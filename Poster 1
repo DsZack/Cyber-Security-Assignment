@@ -1,0 +1,13 @@
+##Conceptualisation
+
+This task will be a bushranger style question that will explore the use of images as junk files. The user will be asked to search through these files to find the flag. The user will have to use commands such as; cat cd grep and find to be able to find the hidden flag. The flag will be within one of the junk image files and will be made a human readable file.
+
+
+##Research and Design
+
+We are planning a Bushranger task which will involve a mix of files to search as well as images to be used as junk code. The skill that will be used within the task are cat to search the system, find to search for the human readable file within the directory, cd command to enter directories to search, the nano command to allow us to type within a file and the rm command to copy the original files to repeat in other directories. We copied and pasted the images that when transferred to Linux, becomes junk code. We then used the junk code for i in {000..100}; do cp image.name new.name$i; done, this copied and pasted the image 100 times within the directory as files with different numbered names. We then use the nano command to pick a random file to be able to type in and hide a flag.
+
+
+##Reflection
+
+
